@@ -1,0 +1,162 @@
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/bitcoin-gc38805e45_1280.jpg");
+
+  /* Set a specific height */
+  min-height: 270px;
+  
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.headLine{
+    text-align: center;
+    color: gold;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, -32px -37px 16px rgba(206,89,55,0);
+    
+}
+
+
+.paragraph1{
+    text-align:start
+    
+}
+
+#oshriJpg{
+  position: absolute;
+  top: 350px;
+  right: 100px;
+  
+    width: 330px;
+    margin-left: 800px;
+    height: 350px;
+    border: 3px solid gold;
+}
+
+.about{
+    text-align: center;
+    margin-left: 15px;  
+    display: none; 
+}
+
+
+.container {
+    
+    display:flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 15px;
+    padding-top: 40px;
+    text-align:center;
+    margin-top: 100px;
+    
+    
+
+  }
+
+
+
+
+  /* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 125px;
+    
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  #moreInfoBtn{
+    color:white;
+    
+    background-color: gold;
+    
+  }
+
+
+  .card-title{
+    margin-bottom: 10px;
+  }
+
+
+  
+nav{
+  display: inline-block;
+}
+
+
+#coinsIMG{
+  width: 50px;
+  margin-bottom: 10px;
+  
+}
+
+
+  
+
+
+  
+
